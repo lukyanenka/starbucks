@@ -1,0 +1,26 @@
+header {
+  display: inline-flex;
+  align-items: center;
+}
+header .header-icon-with-txt {
+  display: flex;
+  align-items: center;
+}
+header .header-icon {
+  width: 23%;
+  margin-left: 10%;
+  margin: 3%;
+}
+header .header-txt {
+  font-size: 3.5em;
+  line-height: 0.9em;
+  margin-left: 3%;
+}
+header .header-menu-icon {
+  width: 7%;
+  margin: 2%;
+}
+header .header-menu-icon- {
+  width: 7%;
+  margin: 2%;
+}
