@@ -1,3 +1,6 @@
+header {
+  display: inline-block;
+}
 header .header-icon-with-txt {
   align-items: center;
 }
@@ -5,11 +8,35 @@ header .header-icon {
   width: 10em;
 }
 header .header-txt {
-  font-size: 3em;
+  font-size: 3.5em;
   line-height: 0.9em;
   margin: 0.4em;
 }
 header .header-menu-icon {
   width: 6em;
   margin: 1em;
+}
+.gallery {
+  display: inline-block;
+  position: sticky;
+}
+.gallery .gallery-drink-1 {
+  width: 32%;
+  margin: 0.5%;
+}
+.gallery .gallery-drink-2 {
+  width: 24%;
+  margin: 0.5%;
+}
+.gallery .gallery-drink-3 {
+  width: 40%;
+  margin: 0.5%;
+}
+.gallery .gallery-drink-4 {
+  width: 37.5%;
+  margin: 0.5%;
+}
+.gallery .gallery-drink-5 {
+  width: 59.5%;
+  margin: 0.5%;
 }
