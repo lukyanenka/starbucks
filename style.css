@@ -40,3 +40,40 @@ header .header-menu-icon {
   width: 59.5%;
   margin: 0.5%;
 }
+.new-items .new-items-title {
+  font-size: 100pt;
+  color: #028354;
+}
+.new-items .new-items-txt-with-button {
+  margin-top: 7%;
+}
+.new-items .new-item-1 {
+  background-color: #028354;
+  font-size: 60pt;
+  color: #ffffff;
+}
+.new-items .new-item-img {
+  margin: 2.5%;
+}
+.new-items .new-item-button {
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+}
+.new-items .new-item-button-2 {
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  float: right;
+}
+.new-items .new-item-2 {
+  font-size: 60pt;
+}
+.new-items .new-item-3 {
+  background-color: #028354;
+  font-size: 60pt;
+  color: #ffffff;
+}
