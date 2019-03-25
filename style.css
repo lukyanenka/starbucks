@@ -84,3 +84,10 @@ footer .footer-icon {
 footer .footer-txt {
   font-size: 20pt;
 }
+.map .map-txt {
+  font-size: 48pt;
+  margin-left: 3%;
+}
+.map .map-img {
+  width: 100%;
+}
