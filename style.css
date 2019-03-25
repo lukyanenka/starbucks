@@ -77,3 +77,10 @@ header .header-menu-icon {
   font-size: 60pt;
   color: #ffffff;
 }
+footer .footer-icon {
+  width: 10%;
+  margin: 2%;
+}
+footer .footer-txt {
+  font-size: 20pt;
+}
