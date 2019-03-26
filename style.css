@@ -1,6 +1,9 @@
 header {
   display: inline-block;
 }
+header a {
+  text-decoration: none;
+}
 header .header-icon-with-txt {
   align-items: center;
 }
