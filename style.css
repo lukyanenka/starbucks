@@ -50,7 +50,7 @@ header .header-menu-icon {
 .new-items .new-items-txt-with-button {
   margin-top: 7%;
 }
-.new-items .new-item-1 {
+.new-items .new-item {
   background-color: #028354;
   font-size: 60pt;
   color: #ffffff;
@@ -58,27 +58,16 @@ header .header-menu-icon {
 .new-items .new-item-img {
   margin: 2.5%;
 }
-.new-items .new-item-button {
+.new-items .button-2 {
+  float: right;
   border-color: black;
   background-color: black;
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
 }
-.new-items .new-item-button-2 {
-  border-color: black;
-  background-color: black;
-  font-size: 30pt;
-  color: #ffffff;
-  float: right;
-}
 .new-items .new-item-2 {
   font-size: 60pt;
-}
-.new-items .new-item-3 {
-  background-color: #028354;
-  font-size: 60pt;
-  color: #ffffff;
 }
 footer .footer-icon {
   width: 10%;
@@ -93,4 +82,42 @@ footer .footer-txt {
 }
 .map .map-img {
   width: 100%;
+}
+.profile .link {
+  margin-left: 1%;
+}
+.profile .form {
+  font-size: 30pt;
+  margin-left: 1%;
+}
+.profile-title {
+  font-size: 42pt;
+  margin-left: 1%;
+}
+.profile .form {
+  background-color: #e4e4e4;
+}
+.profile .form-label {
+  margin-left: 1%;
+  width: 97%;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom-color: #acacac;
+  background-color: #e4e4e4;
+}
+.profile .button {
+  margin-left: 1%;
+}
+.profile .green-button {
+  border-color: #00a651;
+  background-color: #00a651;
+  font-size: 48pt;
+}
+.button {
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
 }
