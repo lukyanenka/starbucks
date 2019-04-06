@@ -1,22 +1,23 @@
 header {
   display: inline-block;
 }
-header a {
+header a.header-txt {
   text-decoration: none;
 }
 header .header-icon-with-txt {
   align-items: center;
 }
 header .header-icon {
-  width: 10em;
+  width: 9em;
 }
 header .header-txt {
-  font-size: 3.5em;
+  text-decoration: none;
+  font-size: 3em;
   line-height: 0.9em;
   margin: 0.4em;
 }
 header .header-menu-icon {
-  width: 6em;
+  width: 5em;
   margin: 1em;
 }
 .gallery {
@@ -44,7 +45,7 @@ header .header-menu-icon {
   margin: 0.5%;
 }
 .new-items .new-items-title {
-  font-size: 100pt;
+  font-size: 80pt;
   color: #028354;
 }
 .new-items .new-items-txt-with-button {
@@ -52,8 +53,12 @@ header .header-menu-icon {
 }
 .new-items .new-item {
   background-color: #028354;
-  font-size: 60pt;
+  font-size: 40pt;
   color: #ffffff;
+  align-items: center;
+}
+.new-items .new-item .col-3 {
+  margin: 2.5%;
 }
 .new-items .new-item-img {
   margin: 2.5%;
@@ -67,39 +72,46 @@ header .header-menu-icon {
   margin-bottom: 4%;
 }
 .new-items .new-item-2 {
-  font-size: 60pt;
+  font-size: 40pt;
+  align-items: center;
+}
+footer .row {
+  background-color: #dadada;
 }
 footer .footer-icon {
-  width: 10%;
-  margin: 2%;
+  width: 8%;
+  margin: 3%;
 }
 footer .footer-txt {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 .map .map-txt {
-  font-size: 48pt;
-  margin-left: 3%;
+  font-size: 38pt;
+  margin-left: 1.5%;
 }
 .map .map-img {
   width: 100%;
 }
+.profile {
+  padding: 0px;
+}
 .profile .link {
-  margin-left: 1%;
+  margin-left: 2%;
 }
 .profile .form {
-  font-size: 30pt;
-  margin-left: 1%;
+  font-size: 28pt;
 }
 .profile-title {
-  font-size: 42pt;
-  margin-left: 1%;
+  font-size: 38pt;
+  margin: 3%;
 }
 .profile .form {
   background-color: #e4e4e4;
+  padding-left: 2%;
 }
 .profile .form-label {
-  margin-left: 1%;
-  width: 97%;
+  margin-left: 2%;
+  width: 95%;
   border-right: none;
   border-top: none;
   border-left: none;
@@ -107,7 +119,7 @@ footer .footer-txt {
   background-color: #e4e4e4;
 }
 .profile .button {
-  margin-left: 1%;
+  margin-left: 3%;
 }
 .profile .green-button {
   border-color: #00a651;
