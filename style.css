@@ -26,23 +26,34 @@ header .header-menu-icon {
 }
 .gallery .gallery-drink-1 {
   width: 32%;
+  height: 35em;
   margin: 0.5%;
+  object-fit: cover;
 }
 .gallery .gallery-drink-2 {
   width: 24%;
   margin: 0.5%;
+  height: 24em;
+  object-fit: cover;
 }
 .gallery .gallery-drink-3 {
   width: 40%;
   margin: 0.5%;
+  height: 24em;
+  object-fit: cover;
 }
 .gallery .gallery-drink-4 {
   width: 37.5%;
   margin: 0.5%;
+  height: 23em;
+  object-fit: cover;
 }
 .gallery .gallery-drink-5 {
-  width: 59.5%;
+  width: 60%;
+  height: 34em;
   margin: 0.5%;
+  margin-top: -165px;
+  object-fit: cover;
 }
 .new-items .new-items-title {
   font-size: 80pt;
@@ -125,6 +136,28 @@ footer .footer-txt {
   border-color: #00a651;
   background-color: #00a651;
   font-size: 48pt;
+}
+.menu .menu-tite {
+  font-size: 60pt;
+  color: #028354;
+}
+.menu .drink-1 {
+  background-color: #028354;
+  font-size: 75pt;
+  color: #ffffff;
+  align-items: center;
+}
+.menu .drink-2 {
+  font-size: 75pt;
+  align-items: center;
+}
+.menu .button-2 {
+  float: right;
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
 }
 .button {
   border-color: black;
