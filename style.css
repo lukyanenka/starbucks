@@ -130,12 +130,13 @@ footer .footer-txt {
   background-color: #e4e4e4;
 }
 .profile .button {
-  margin-left: 3%;
+  margin-left: 4%;
 }
 .profile .green-button {
   border-color: #00a651;
   background-color: #00a651;
   font-size: 48pt;
+  margin-left: 4%;
 }
 .menu .menu-tite {
   font-size: 60pt;
@@ -143,12 +144,12 @@ footer .footer-txt {
 }
 .menu .drink-1 {
   background-color: #028354;
-  font-size: 75pt;
+  font-size: 59pt;
   color: #ffffff;
   align-items: center;
 }
 .menu .drink-2 {
-  font-size: 75pt;
+  font-size: 59pt;
   align-items: center;
 }
 .menu .button-2 {
@@ -158,6 +159,13 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
+}
+.history .order {
+  font-size: 30pt;
+  background-color: #dadada;
+}
+.history p {
+  margin: 1%;
 }
 .button {
   border-color: black;
