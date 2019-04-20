@@ -222,35 +222,38 @@ footer .footer-txt {
   font-size: 48pt;
   margin-left: 4%;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   header .header-icon {
-    width: 3em;
+    width: 2.8em;
   }
   header .header-txt {
     font-size: 1em;
   }
   header .header-menu-icon {
-    width: 1.5em;
-    margin: 0.2em;
+    width: 1.3em;
+    margin: 0.1em;
+  }
+  header nav {
+    margin-right: 4%;
   }
   .new-items .new-items-title {
     font-size: 2.5em;
   }
   .new-items .new-item,
   .new-items .new-item-2 {
-    font-size: 3.5em;
+    font-size: 4.5em;
   }
   .menu .menu-tite {
     font-size: 1.7em;
   }
   .menu .menu-button,
   .menu .menu-button-2 {
-    width: 45vw;
-    height: 6vh;
-    font-size: 10pt;
+    width: 40vw;
+    height: 8vh;
+    font-size: 0.6em;
   }
   .menu p {
-    font-size: 0.3em;
+    font-size: 0.28em;
   }
   .map .map-txt {
     font-size: 19pt;
@@ -267,7 +270,7 @@ footer .footer-txt {
   .profile .profile-button {
     width: 43vw;
     height: 5vh;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .gallery .gallery-drink-1 {
     width: 32%;
@@ -291,7 +294,7 @@ footer .footer-txt {
   }
   .gallery .gallery-drink-5 {
     width: calc(58.75%);
-    height: 11.2em;
+    height: 11.3em;
     margin: 0.5%;
     margin-top: -82.5px;
   }
