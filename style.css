@@ -268,7 +268,7 @@ footer .footer-txt {
     font-size: 0.9em;
   }
   .profile .profile-button {
-    width: 40%;
+    width: 42%;
     height: 10vh;
     font-size: 1em;
   }
@@ -311,9 +311,6 @@ footer .footer-txt {
   .basket .price {
     font-size: 0.7em;
   }
-  .basket img {
-    width: 200em;
-  }
   p {
     font-size: 0.3em;
     word-break: break-word;
@@ -329,5 +326,113 @@ footer .footer-txt {
   }
   footer .footer-txt {
     font-size: 0.7em;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+  p {
+    word-break: break-word;
+  }
+  header .header-icon {
+    width: 6.5em;
+  }
+  header .header-txt {
+    font-size: 2em;
+  }
+  header .header-menu-icon {
+    width: 3em;
+    margin: 0.4em;
+  }
+  header nav {
+    margin-right: 4%;
+  }
+  .gallery .gallery-drink-1 {
+    width: 32%;
+    height: 22em;
+    margin: 0.5%;
+  }
+  .gallery .gallery-drink-2 {
+    width: 24%;
+    margin: 0.5%;
+    height: 14.5em;
+  }
+  .gallery .gallery-drink-3 {
+    width: calc(38%);
+    margin: 0.5%;
+    height: 14.5em;
+  }
+  .gallery .gallery-drink-4 {
+    width: 37.5%;
+    margin: 0.5%;
+    height: 14em;
+  }
+  .gallery .gallery-drink-5 {
+    width: calc(58%);
+    height: 21.2em;
+    margin: 0.5%;
+    margin-top: -112.5px;
+  }
+  .new-items .new-items-title {
+    font-size: 4.5em;
+  }
+  .new-items .new-item,
+  .new-items .new-item-2 {
+    font-size: 2.7em;
+  }
+  .button,
+  .button-2 {
+    width: 42vw;
+    height: 7vh;
+    font-size: 0.5em;
+  }
+  .profile-title {
+    font-size: 2.5em;
+  }
+  .profile .form {
+    font-size: 1.5em;
+  }
+  .profile .link {
+    font-size: 1em;
+  }
+  .profile .profile-button {
+    width: 25%;
+    height: 8vh;
+    font-size: 1.2em;
+  }
+  .green-button {
+    font-size: 2.5em;
+  }
+  .menu .menu-tite {
+    font-size: 2.5em;
+  }
+  .menu .menu-button,
+  .menu .menu-button-2 {
+    width: 30vw;
+    height: 12vh;
+    font-size: 0.5em;
+  }
+  .menu p {
+    font-size: 0.5em;
+  }
+  .map .map-txt {
+    font-size: 2.5em;
+  }
+  .history p {
+    font-size: 0.7em;
+  }
+  .basket .basket-title {
+    font-size: 2.5em;
+  }
+  .basket .font-italic {
+    font-size: 1.4em;
+  }
+  .basket .total-cost {
+    font-size: 2em;
+    text-decoration: underline;
+  }
+  .basket .price {
+    font-size: 1em;
+  }
+  footer .footer-txt {
+    font-size: 1.2em;
   }
 }
