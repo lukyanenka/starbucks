@@ -37,7 +37,7 @@ header .header-menu-icon {
   object-fit: cover;
 }
 .gallery .gallery-drink-3 {
-  width: 40%;
+  width: calc(40%);
   margin: 0.5%;
   height: 24em;
   object-fit: cover;
@@ -72,15 +72,8 @@ header .header-menu-icon {
   margin: 2.5%;
 }
 .new-items .new-item-img {
+  width: 20vw;
   margin: 2.5%;
-}
-.new-items .button-2 {
-  float: right;
-  border-color: black;
-  background-color: black;
-  font-size: 30pt;
-  color: #ffffff;
-  margin-bottom: 4%;
 }
 .new-items .new-item-2 {
   font-size: 40pt;
@@ -132,12 +125,6 @@ footer .footer-txt {
 .profile .button {
   margin-left: 4%;
 }
-.profile .green-button {
-  border-color: #00a651;
-  background-color: #00a651;
-  font-size: 48pt;
-  margin-left: 4%;
-}
 .menu .menu-tite {
   font-size: 60pt;
   color: #028354;
@@ -152,13 +139,8 @@ footer .footer-txt {
   font-size: 59pt;
   align-items: center;
 }
-.menu .button-2 {
-  float: right;
-  border-color: black;
-  background-color: black;
-  font-size: 30pt;
-  color: #ffffff;
-  margin-bottom: 4%;
+.menu .menu-img {
+  width: 1vw;
 }
 .history .order {
   font-size: 30pt;
@@ -173,4 +155,86 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
+}
+.button-2 {
+  float: right;
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+}
+.green-button {
+  border-color: #00a651;
+  background-color: #00a651;
+  font-size: 48pt;
+  margin-left: 4%;
+}
+@media (max-width: 767.98px) {
+  header .header-icon {
+    width: 3em;
+  }
+  header .header-txt {
+    font-size: 1em;
+  }
+  header .header-menu-icon {
+    width: 1.5em;
+    margin: 0.2em;
+  }
+  .new-items .new-items-title {
+    font-size: 38pt;
+  }
+  .menu .menu-tite {
+    font-size: 20pt;
+  }
+  .map .map-txt {
+    font-size: 19pt;
+  }
+  .profile-title {
+    font-size: 19pt;
+  }
+  .profile .form {
+    font-size: 20pt;
+  }
+  .gallery .gallery-drink-1 {
+    width: 32%;
+    height: 12em;
+    margin: 0.5%;
+  }
+  .gallery .gallery-drink-2 {
+    width: 24%;
+    margin: 0.5%;
+    height: 6.5em;
+  }
+  .gallery .gallery-drink-3 {
+    width: calc(38%);
+    margin: 0.5%;
+    height: 6.5em;
+  }
+  .gallery .gallery-drink-4 {
+    width: 37.5%;
+    margin: 0.5%;
+    height: 6em;
+  }
+  .gallery .gallery-drink-5 {
+    width: calc(58.5%);
+    height: 11.5em;
+    margin: 0.5%;
+    margin-top: -82.5px;
+  }
+  p {
+    font-size: 0.3em;
+    word-break: break-word;
+  }
+  .button,
+  .button-2 {
+    width: 45vw;
+    font-size: 10pt;
+  }
+  .green-button {
+    font-size: 24pt;
+  }
+  footer .footer-txt {
+    font-size: 0.7em;
+  }
 }
