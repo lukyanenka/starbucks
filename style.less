@@ -49,8 +49,8 @@ header {
         object-fit: cover;
     }
     .gallery-drink-5 {
-        width: 60%;
-        height: 34em;
+        width: calc(100%-5.5*0.5%-37.5%);
+        height: 33.8em;
         margin: 0.5%;
         margin-top: -165px;
         object-fit: cover;
@@ -59,7 +59,7 @@ header {
 
 .new-items {
     .new-items-title {
-    font-size: 80pt;
+    font-size: 8em;
     color: rgba(2, 131, 84, 255);
     }
     .new-items-txt-with-button{
@@ -67,7 +67,7 @@ header {
     }
     .new-item{
         background-color: rgba(2, 131, 84, 255);
-        font-size: 40pt;
+        font-size: 4.2em;
         color: rgba(255, 255, 255, 255);  
         align-items: center;  
         .col-3 {
@@ -79,7 +79,7 @@ header {
         margin: 2.5%;
     }
     .new-item-2 {
-        font-size: 40pt;
+        font-size: 4.2em;
         align-items: center;
     }
 }
@@ -93,7 +93,7 @@ footer {
         margin: 3%;
     }
     .footer-txt {
-        font-size: 18pt;
+        font-size: 1.9em;
     }
 }
 
@@ -132,8 +132,15 @@ footer {
         border-bottom-color: #acacac;
         background-color: #e4e4e4;
     }
-    .button {
+    .profile-button {
         margin-left: 4%;
+        border-color: black;
+        background-color: black;
+        font-size: 30pt;
+        color: rgba(255, 255, 255, 255);
+        margin-bottom: 4%;
+        width: 30%;
+        height: 10vh;
     }
 }
 
@@ -143,17 +150,34 @@ footer {
         color: rgba(2, 131, 84, 255);
         }
     .drink-1 {
+        img {
+            margin-left: 5.5%;
+        }
         background-color: rgba(2, 131, 84, 255);
-        font-size: 59pt;
+        font-size: 5.5em;
         color: rgba(255, 255, 255, 255);  
         align-items: center; 
     }
     .drink-2 {
-        font-size: 59pt;
+        font-size: 5.1em;
         align-items: center;
     }
     .menu-img {
         width: 1vw;
+        margin: 2%;
+    }
+    .menu-button {
+        border-color: black;
+        background-color: black;
+        font-size: 30pt;
+        color: rgba(255, 255, 255, 255);
+        margin-bottom: 4%;
+        width: 85%;
+        height: 13vh;
+    }
+    .menu-button-2 {
+        float: right;
+        .menu-button();
     }
 }
 
@@ -167,12 +191,34 @@ footer {
     }
 }
 
+.basket {
+    .basket-title {
+        font-size: 4em;
+    }
+    .font-italic {
+        font-size: 2em;
+    }
+    .col-xl-1, .col-3 {
+        margin: 2%;
+    }
+    .price {
+        font-size: 1.2em;
+        margin-left: 1%;
+    }
+    .total-cost {
+        font-size: 3em;
+        margin: 2%;
+    }
+}
+
 .button {
     border-color: black;
     background-color: black;
     font-size: 30pt;
     color: rgba(255, 255, 255, 255);
     margin-bottom: 4%;
+    width: 70%;
+    height: 12vh;
 }
 
 .button-2 {
@@ -187,7 +233,7 @@ footer {
     margin-left: 4%;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
     header {
         .header-icon {
             width: 3em;
@@ -200,31 +246,53 @@ footer {
             margin: 0.2em;
         }
     }
+
     .new-items {
         .new-items-title {
-        font-size: 38pt;
+        font-size: 2.5em;
+        }
+        .new-item, .new-item-2 {
+        font-size: 3.5em;
         }
     }
+
     .menu {
         .menu-tite {
-            font-size: 20pt;
+            font-size: 1.7em;
+        }
+        .menu-button, .menu-button-2 {
+            width: 45vw;  
+            height: 6vh;
+            font-size: 10pt;
+        }
+        p {
+            font-size: 0.3em;
         }
     }
+
     .map {
         .map-txt {
             font-size: 19pt;
         }
     }
+
     .profile {
         &-title {
-            font-size: 19pt;
+            font-size: 1.5em;
         }
-    }
-    .profile {
         .form {
-            font-size: 20pt;
+            font-size: 1.2em;
+        }
+        .link {
+            font-size: 0.9em;
+        }
+        .profile-button {
+            width: 45vw;  
+            height: 4vh;
+            font-size: 1em;
         }
     }
+
     .gallery {
         .gallery-drink-1 {
             width: 32%;
@@ -247,22 +315,42 @@ footer {
             height: 6em;
         }
         .gallery-drink-5 {
-            width: calc(100%-8*0.5%-37.5%);
-            height: 11.5em;
+            width: calc(100%-7.5*0.5%-37.5%);
+            height: 11.2em;
             margin: 0.5%;
             margin-top: -82.5px;
         }
     }
+
+    .basket {
+        .basket-title {
+            font-size: 2em;
+        }
+        .font-italic {
+            font-size: 1em;
+        }
+        .total-cost {
+            font-size: 1.1em;
+        }
+        .price {
+            font-size: 0.7em;
+        }
+        img {
+            width: 200em;
+        }
+    }
+
     p {
         font-size: 0.3em;
         word-break: break-word;
     }
     .button, .button-2 {
         width: 45vw;  
+        height: 6vh;
         font-size: 10pt;
     }
     .green-button {
-        font-size: 24pt;
+        font-size: 2em;
     }
     footer {
         .footer-txt{

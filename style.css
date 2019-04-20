@@ -49,14 +49,14 @@ header .header-menu-icon {
   object-fit: cover;
 }
 .gallery .gallery-drink-5 {
-  width: 60%;
-  height: 34em;
+  width: calc(59.75%);
+  height: 33.8em;
   margin: 0.5%;
   margin-top: -165px;
   object-fit: cover;
 }
 .new-items .new-items-title {
-  font-size: 80pt;
+  font-size: 8em;
   color: #028354;
 }
 .new-items .new-items-txt-with-button {
@@ -64,7 +64,7 @@ header .header-menu-icon {
 }
 .new-items .new-item {
   background-color: #028354;
-  font-size: 40pt;
+  font-size: 4.2em;
   color: #ffffff;
   align-items: center;
 }
@@ -76,7 +76,7 @@ header .header-menu-icon {
   margin: 2.5%;
 }
 .new-items .new-item-2 {
-  font-size: 40pt;
+  font-size: 4.2em;
   align-items: center;
 }
 footer .row {
@@ -87,7 +87,7 @@ footer .footer-icon {
   margin: 3%;
 }
 footer .footer-txt {
-  font-size: 18pt;
+  font-size: 1.9em;
 }
 .map .map-txt {
   font-size: 38pt;
@@ -122,8 +122,15 @@ footer .footer-txt {
   border-bottom-color: #acacac;
   background-color: #e4e4e4;
 }
-.profile .button {
+.profile .profile-button {
   margin-left: 4%;
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+  width: 30%;
+  height: 10vh;
 }
 .menu .menu-tite {
   font-size: 60pt;
@@ -131,16 +138,39 @@ footer .footer-txt {
 }
 .menu .drink-1 {
   background-color: #028354;
-  font-size: 59pt;
+  font-size: 5.5em;
   color: #ffffff;
   align-items: center;
 }
+.menu .drink-1 img {
+  margin-left: 5.5%;
+}
 .menu .drink-2 {
-  font-size: 59pt;
+  font-size: 5.1em;
   align-items: center;
 }
 .menu .menu-img {
   width: 1vw;
+  margin: 2%;
+}
+.menu .menu-button {
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+  width: 85%;
+  height: 13vh;
+}
+.menu .menu-button-2 {
+  float: right;
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+  width: 85%;
+  height: 13vh;
 }
 .history .order {
   font-size: 30pt;
@@ -149,12 +179,32 @@ footer .footer-txt {
 .history p {
   margin: 1%;
 }
+.basket .basket-title {
+  font-size: 4em;
+}
+.basket .font-italic {
+  font-size: 2em;
+}
+.basket .col-xl-1,
+.basket .col-3 {
+  margin: 2%;
+}
+.basket .price {
+  font-size: 1.2em;
+  margin-left: 1%;
+}
+.basket .total-cost {
+  font-size: 3em;
+  margin: 2%;
+}
 .button {
   border-color: black;
   background-color: black;
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
+  width: 70%;
+  height: 12vh;
 }
 .button-2 {
   float: right;
@@ -163,6 +213,8 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
+  width: 70%;
+  height: 12vh;
 }
 .green-button {
   border-color: #00a651;
@@ -170,7 +222,7 @@ footer .footer-txt {
   font-size: 48pt;
   margin-left: 4%;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   header .header-icon {
     width: 3em;
   }
@@ -182,19 +234,40 @@ footer .footer-txt {
     margin: 0.2em;
   }
   .new-items .new-items-title {
-    font-size: 38pt;
+    font-size: 2.5em;
+  }
+  .new-items .new-item,
+  .new-items .new-item-2 {
+    font-size: 3.5em;
   }
   .menu .menu-tite {
-    font-size: 20pt;
+    font-size: 1.7em;
+  }
+  .menu .menu-button,
+  .menu .menu-button-2 {
+    width: 45vw;
+    height: 6vh;
+    font-size: 10pt;
+  }
+  .menu p {
+    font-size: 0.3em;
   }
   .map .map-txt {
     font-size: 19pt;
   }
   .profile-title {
-    font-size: 19pt;
+    font-size: 1.5em;
   }
   .profile .form {
-    font-size: 20pt;
+    font-size: 1.2em;
+  }
+  .profile .link {
+    font-size: 0.9em;
+  }
+  .profile .profile-button {
+    width: 45vw;
+    height: 4vh;
+    font-size: 1em;
   }
   .gallery .gallery-drink-1 {
     width: 32%;
@@ -217,10 +290,25 @@ footer .footer-txt {
     height: 6em;
   }
   .gallery .gallery-drink-5 {
-    width: calc(58.5%);
-    height: 11.5em;
+    width: calc(58.75%);
+    height: 11.2em;
     margin: 0.5%;
     margin-top: -82.5px;
+  }
+  .basket .basket-title {
+    font-size: 2em;
+  }
+  .basket .font-italic {
+    font-size: 1em;
+  }
+  .basket .total-cost {
+    font-size: 1.1em;
+  }
+  .basket .price {
+    font-size: 0.7em;
+  }
+  .basket img {
+    width: 200em;
   }
   p {
     font-size: 0.3em;
@@ -229,10 +317,11 @@ footer .footer-txt {
   .button,
   .button-2 {
     width: 45vw;
+    height: 6vh;
     font-size: 10pt;
   }
   .green-button {
-    font-size: 24pt;
+    font-size: 2em;
   }
   footer .footer-txt {
     font-size: 0.7em;
