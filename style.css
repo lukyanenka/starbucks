@@ -265,9 +265,9 @@ footer .footer-txt {
     font-size: 0.9em;
   }
   .profile .profile-button {
-    width: 45vw;
-    height: 4vh;
-    font-size: 1em;
+    width: 43vw;
+    height: 5vh;
+    font-size: 1.2em;
   }
   .gallery .gallery-drink-1 {
     width: 32%;
@@ -303,6 +303,7 @@ footer .footer-txt {
   }
   .basket .total-cost {
     font-size: 1.1em;
+    text-decoration: underline;
   }
   .basket .price {
     font-size: 0.7em;
@@ -316,8 +317,8 @@ footer .footer-txt {
   }
   .button,
   .button-2 {
-    width: 45vw;
-    height: 6vh;
+    width: 42vw;
+    height: 7vh;
     font-size: 10pt;
   }
   .green-button {
