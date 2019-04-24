@@ -129,8 +129,7 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
-  width: 30%;
-  height: 10vh;
+  width: auto;
 }
 .menu .menu-tite {
   font-size: 60pt;
@@ -159,8 +158,7 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
-  width: 85%;
-  height: 13vh;
+  width: auto;
 }
 .menu .menu-button-2 {
   float: right;
@@ -169,8 +167,7 @@ footer .footer-txt {
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
-  width: 85%;
-  height: 13vh;
+  width: auto;
 }
 .history .order {
   font-size: 30pt;
@@ -239,15 +236,14 @@ footer .footer-txt {
   }
   .new-items .new-item,
   .new-items .new-item-2 {
-    font-size: 4.5em;
+    font-size: 1.5em;
   }
   .menu .menu-tite {
     font-size: 1.7em;
   }
   .menu .menu-button,
   .menu .menu-button-2 {
-    width: 40vw;
-    height: 8vh;
+    width: auto;
     font-size: 0.6em;
   }
   .menu p {
@@ -266,8 +262,7 @@ footer .footer-txt {
     font-size: 0.9em;
   }
   .profile .profile-button {
-    width: 42%;
-    height: 10vh;
+    width: auto;
     font-size: 1em;
   }
   .gallery .gallery-drink-1 {
@@ -296,6 +291,9 @@ footer .footer-txt {
     margin: 0.5%;
     margin-top: -82.5px;
   }
+  .history p {
+    font-size: 0.5em;
+  }
   .basket .basket-title {
     font-size: 2em;
   }
@@ -310,7 +308,6 @@ footer .footer-txt {
     font-size: 0.7em;
   }
   p {
-    font-size: 0.3em;
     word-break: break-word;
   }
   .button,
@@ -322,7 +319,7 @@ footer .footer-txt {
     font-size: 2em;
   }
   footer .footer-txt {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 @media (min-width: 767.98px) and (max-width: 1199.98px) {
@@ -390,8 +387,7 @@ footer .footer-txt {
     font-size: 1em;
   }
   .profile .profile-button {
-    width: 25%;
-    height: 8vh;
+    width: auto;
     font-size: 1.2em;
   }
   .green-button {
@@ -402,8 +398,7 @@ footer .footer-txt {
   }
   .menu .menu-button,
   .menu .menu-button-2 {
-    width: 30vw;
-    height: 12vh;
+    width: auto;
     font-size: 0.5em;
   }
   .menu p {
