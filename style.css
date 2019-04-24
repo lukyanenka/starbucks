@@ -243,13 +243,18 @@ p {
   .new-items .new-item-2 {
     font-size: 1.5em;
   }
+  .new-items .button,
+  .new-items .button-2 {
+    width: auto;
+    font-size: 0.4em;
+  }
   .menu .menu-tite {
     font-size: 1.7em;
   }
   .menu .menu-button,
   .menu .menu-button-2 {
     width: auto;
-    font-size: 0.2em;
+    font-size: 0.15em;
   }
   .menu p {
     font-size: 0.28em;
@@ -269,6 +274,9 @@ p {
   .profile .profile-button {
     width: auto;
     font-size: 1em;
+  }
+  .profile .green-button {
+    font-size: 1.5em;
   }
   .gallery .gallery-drink-1 {
     width: 32%;
@@ -314,14 +322,6 @@ p {
   }
   p {
     word-break: break-word;
-  }
-  .button,
-  .button-2 {
-    width: auto;
-    font-size: 10pt;
-  }
-  .green-button {
-    font-size: 2em;
   }
   footer .footer-txt {
     font-size: 0.8em;
