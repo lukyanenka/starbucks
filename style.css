@@ -182,15 +182,17 @@ footer .footer-txt {
   color: #ffffff;
   margin-bottom: 4%;
   width: auto;
+  float: left;
 }
 .menu .menu-button-2 {
-  float: right;
   border-color: black;
   background-color: black;
   font-size: 30pt;
   color: #ffffff;
   margin-bottom: 4%;
   width: auto;
+  float: left;
+  float: right;
 }
 .history .order {
   font-size: 30pt;
@@ -247,7 +249,7 @@ p {
   .menu .menu-button,
   .menu .menu-button-2 {
     width: auto;
-    font-size: 0.6em;
+    font-size: 0.2em;
   }
   .menu p {
     font-size: 0.28em;
@@ -295,7 +297,7 @@ p {
     margin-top: -82.5px;
   }
   .history p {
-    font-size: 0.5em;
+    font-size: 0.35em;
   }
   .basket .basket-title {
     font-size: 2em;
@@ -378,7 +380,7 @@ p {
   .button,
   .button-2 {
     width: auto;
-    font-size: 0.5em;
+    font-size: 0.35em;
   }
   .profile-title {
     font-size: 2.5em;
@@ -402,7 +404,7 @@ p {
   .menu .menu-button,
   .menu .menu-button-2 {
     width: auto;
-    font-size: 0.5em;
+    font-size: 0.35em;
   }
   .menu p {
     font-size: 0.5em;
