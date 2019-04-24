@@ -79,6 +79,23 @@ header .header-menu-icon {
   font-size: 4.2em;
   align-items: center;
 }
+.new-items .button {
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+  width: auto;
+}
+.new-items .button-2 {
+  float: right;
+  border-color: black;
+  background-color: black;
+  font-size: 30pt;
+  color: #ffffff;
+  margin-bottom: 4%;
+  width: auto;
+}
 footer .row {
   background-color: #dadada;
 }
@@ -130,6 +147,12 @@ footer .footer-txt {
   color: #ffffff;
   margin-bottom: 4%;
   width: auto;
+}
+.profile .green-button {
+  border-color: #00a651;
+  background-color: #00a651;
+  font-size: 48pt;
+  margin-left: 4%;
 }
 .menu .menu-tite {
   font-size: 60pt;
@@ -194,28 +217,8 @@ footer .footer-txt {
   font-size: 3em;
   margin: 2%;
 }
-.button {
-  border-color: black;
-  background-color: black;
-  font-size: 30pt;
-  color: #ffffff;
-  margin-bottom: 4%;
-  width: auto;
-}
-.button-2 {
-  float: right;
-  border-color: black;
-  background-color: black;
-  font-size: 30pt;
-  color: #ffffff;
-  margin-bottom: 4%;
-  width: auto;
-}
-.green-button {
-  border-color: #00a651;
-  background-color: #00a651;
-  font-size: 48pt;
-  margin-left: 4%;
+p {
+  word-break: break-word;
 }
 @media (max-width: 767.98px) {
   header .header-icon {
