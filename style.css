@@ -325,7 +325,7 @@ p {
   }
   .basket .total-cost {
     font-size: 1em;
-    margin-left: 14.5%;
+    margin-left: 4.5%;
   }
   .basket .price {
     font-size: 0.7em;
@@ -335,7 +335,7 @@ p {
   }
   .basket .basket-button {
     font-size: 2em;
-    margin-left: 14.5%;
+    margin-left: 30%;
   }
   p {
     word-break: break-word;
