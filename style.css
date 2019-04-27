@@ -216,8 +216,18 @@ footer .footer-txt {
   margin-left: 1%;
 }
 .basket .total-cost {
-  font-size: 3em;
+  font-size: 1.9em;
   margin: 2%;
+  margin-left: 22.5%;
+}
+.basket .elements {
+  margin-left: 20%;
+}
+.basket .basket-button {
+  background-color: #028354;
+  border-color: #028354;
+  font-size: 3em;
+  margin-left: 22.5%;
 }
 p {
   word-break: break-word;
@@ -314,11 +324,18 @@ p {
     font-size: 1em;
   }
   .basket .total-cost {
-    font-size: 1.1em;
-    text-decoration: underline;
+    font-size: 1em;
+    margin-left: 14.5%;
   }
   .basket .price {
     font-size: 0.7em;
+  }
+  .basket .elements {
+    margin-left: 10%;
+  }
+  .basket .basket-button {
+    font-size: 2em;
+    margin-left: 14.5%;
   }
   p {
     word-break: break-word;
@@ -422,11 +439,18 @@ p {
     font-size: 1.4em;
   }
   .basket .total-cost {
-    font-size: 2em;
-    text-decoration: underline;
+    font-size: 1.2em;
+    margin-left: 14%;
   }
   .basket .price {
     font-size: 1em;
+  }
+  .basket .elements {
+    margin-left: 10%;
+  }
+  .basket .basket-button {
+    font-size: 2.5em;
+    margin-left: 14%;
   }
   footer .footer-txt {
     font-size: 1.2em;
